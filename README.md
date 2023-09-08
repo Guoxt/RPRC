@@ -1,6 +1,6 @@
 ### Modeling Rater Preference and Rater Calibration from Optic Disc and Cup Multi-rater Segmentation Annotations
 ------
-![image](image0.png) 
+<img src="https://github.com/Guoxt/RPRC/blob/master/image0.png" alt="Image Alt Text" style="max-width:70%; height:auto;">
 ------
 ### Introduction 
 
