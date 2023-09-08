@@ -1,6 +1,8 @@
 ### Modeling Rater Preference and Rater Calibration from Optic Disc and Cup Multi-rater Segmentation Annotations
 ------
+
 <img src="https://github.com/Guoxt/RPRC/blob/master/image0.png" alt="Image Alt Text" style="max-width:70%; height:auto;">
+
 ------
 ### Introduction 
 
@@ -8,7 +10,9 @@
 ------
 ### Framework
 ------
+
 <img src="https://github.com/Guoxt/RPRC/blob/master/image1.png" alt="Image Alt Text" style="max-width:70%; height:auto;">
+
 ------
 ### > Requirment
 + pytorch 1.0.0+
