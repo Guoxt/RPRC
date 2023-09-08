@@ -11,7 +11,7 @@
 ### Framework
 ------
 
-<img src="https://github.com/Guoxt/RPRC/blob/master/image1.png" alt="Image Alt Text" style="max-width:70/%; height:auto;">
+<img src="https://github.com/Guoxt/RPRC/blob/master/image0.png" alt="Image Alt Text" style="width:700px; height:auto;">
 
 ------
 ### > Requirment
