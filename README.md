@@ -8,7 +8,7 @@
 ------
 ### Framework
 ------
-![image](image1.png) 
+![image](image1.png style="max-width:100%; height:auto;“) 
 ------
 ### > Requirment
 + pytorch 1.0.0+
