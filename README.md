@@ -32,5 +32,5 @@
 
 
 ### Dataset
-1. RIGA benchmark: you can access to this download [link](https://pan.baidu.com/s/1CJzY6WYJfyLwDEKGo_D2IQ), with fetch code (**1627**) or [Google Drive](https://drive.google.com/drive/folders/1Oe9qcuV0gJQSe7BKw1RX_O1dGwenIx9i?usp=sharing). 
+1. RIGA benchmark: you can access to this download [link](https://pan.baidu.com/s/1CJzY6WYJfyLwDEKGo_D2IQ), or [Google Drive](https://drive.google.com/drive/folders/1Oe9qcuV0gJQSe7BKw1RX_O1dGwenIx9i?usp=sharing). 
 ```
