@@ -1,4 +1,4 @@
-### Modeling Rater Preference and Rater Calibration from Optic Disc and Cup Multi-rater Segmentation Annotations
+### Investigating Multi-Rater Segmentation Annotations of Optic Disc and Cup
 ------
 
 <img src="https://github.com/Guoxt/RPRC/blob/master/image0.png" alt="Image Alt Text" style="width:400px; height:auto;">
@@ -8,7 +8,7 @@
 
 <div style="text-align: justify;"> 
 
-##### The segmentation of the optic disc (OD) and optic cup (OC) from fundus images suffers from rater variation due to differences in raters’ expertise and image blurriness. In clinical, we can fuse the annotations of multiple raters to reduce rater-related biases through methods such as majority voting. However, these methods ignores the unique preferences of each rater. In this paper, we propose a novel neural network framework to jointly learn rater calibration and preference for multiple annotations of OD and OC segmentation, which consists of two main parts. In the first part, we model multi annotation as a multi-class segmentation problem to learn calibration segmentation. Further, we propose a multi-annotation smoothing network (MSNet), which can effectively remove high-frequency components in calibration predictions. In the second part, we represent different raters with specific codes, which are used as parameters of the model and optimized during training. In this way, we can achieve modeling different rater preferences under a single network, and the learned rater codes can represent differences in preference patterns among different raters. Our experiments show that our framework outperforms a range of state-of-the-art (SOTA) methods. 
+##### The segmentation of the optic disc (OD) and optic cup (OC) from fundus images suffers from rater variation due to differences in raters' expertise and image blurriness. In clinical, we can fuse the annotations of multiple raters to reduce rater-related biases through methods such as mean voting. However, these methods ignores the unique preferences of each rater. In this paper, we propose a novel neural network framework to jointly learn rater calibration and preference for multiple annotations of OD and OC segmentation, which consists of two main parts. In the first part, we employ an encoder-decoder network to learn the annotation variation among multiple raters and produce calibrated image segmentation. Further, we are the first to propose a multi-annotation smoothing network (MSNet), which can effectively remove high-frequency components in calibration predictions. In the second part, we represent different raters with specific codes, which are used as parameters of the model and optimized during training. In this way, we can achieve modeling different rater preferences under a single network, and the learned rater codes can represent differences in preference patterns among different raters. Our experiments show that our framework outperforms a range of state-of-the-art (SOTA) methods. 
 
 </div>
 
