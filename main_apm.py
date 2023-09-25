@@ -114,9 +114,9 @@ for epoch in range(opt.max_epoch):
         if 1 > 0:
             acc = loss_meter.avg
             # acc保留6位小数
-            prefix = '/userhome/GUOXUTAO/2023_10/00/checkk/pth/' + str(format(acc, '.8f'))  + '_' + str(lr) + '_' + str(batch_size) + '_'
+            prefix = '.../pth/' + str(format(acc, '.8f'))  + '_' + str(lr) + '_' + str(batch_size) + '_'
             name = time.strftime(prefix + '%m%d_%H:%M:%S.pth')
             torch.save(model.state_dict(), name)
 
-            name1 = time.strftime('/userhome/GUOXUTAO/2023_10/00/checkk/plt/' + str(acc) + '%m%d_%H:%M:%S.npy')
+            name1 = time.strftime('.../plt/' + str(acc) + '%m%d_%H:%M:%S.npy')
             numpy.save(name1, plt_list)
