@@ -109,14 +109,12 @@ for epoch in range(opt.max_epoch):
         if ii % 50 == 1:
             print('train-loss-avg:', loss_meter.avg, 'train-loss-each:', loss_meter.val)
 
-    if epoch % 3 == 1:
-        # if ii%8==1:
-        if 1 > 0:
-            acc = loss_meter.avg
-            # acc保留6位小数
-            prefix = '.../pth/' + str(format(acc, '.8f'))  + '_' + str(lr) + '_' + str(batch_size) + '_'
-            name = time.strftime(prefix + '%m%d_%H:%M:%S.pth')
-            torch.save(model.state_dict(), name)
+    if epoch % num == 1:
+        acc = loss_meter.avg
+        # acc保留6位小数
+        prefix = '.../pth/' + str(format(acc, '.8f'))  + '_' + str(lr) + '_' + str(batch_size) + '_'
+        name = time.strftime(prefix + '%m%d_%H:%M:%S.pth')
+        torch.save(model.state_dict(), name)
 
-            name1 = time.strftime('.../plt/' + str(acc) + '%m%d_%H:%M:%S.npy')
-            numpy.save(name1, plt_list)
+        name1 = time.strftime('.../plt/' + str(acc) + '%m%d_%H:%M:%S.npy')
+        numpy.save(name1, plt_list)
